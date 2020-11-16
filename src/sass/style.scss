@@ -3,6 +3,7 @@
 
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/media';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -32,4 +33,3 @@
 @import 'blocks/skills';
 @import 'blocks/portfolio';
 @import 'blocks/contacts';
-@import 'base/media';
