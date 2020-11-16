@@ -131,7 +131,11 @@
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo">
-                    <img src="img/profile_pic.png" alt="profile_pic">
+                        <picture>
+                            <source media="(max-width: 576px)" srcset="img/profile_pic_min.jpg">
+                            <source media="(min-width: 577px)" srcset="img/profile_pic.png">
+                            <img src="img/profile_pic.png" alt="profile_pic">
+                        </picture>
                 </div>
                 <div class="about__descr">
                     <h2 class="title title_fs16 about__title">Про меня</h2>
@@ -433,7 +437,7 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> 
 
     <section class="contacts" id="contacts">
         <div class="container">
