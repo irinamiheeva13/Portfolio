@@ -15,7 +15,7 @@ As for the style, I divided the project into logical components based on the sem
 
 ![HTML](https://img.shields.io/badge/-JAVASCRIPT-yellow)
 
-I used a little bit of JavaScript on the "burger" element. It was the first time I implemented event listeners on the DOM elements. I used more advanced JS in my later projects - please check my [To-Do in vanilla JS](https://github.com/irinamiheeva13/Todo-VanillaJs)
+I used a little bit of JavaScript on the "burger" element. It was the first time I implemented event listeners on the DOM elements. I used more advanced JS in my later projects - please check my [To-Do in vanilla JS](https://github.com/irinamiheeva13/ToDoVanilla)
 
 ![HTML](https://img.shields.io/badge/-GULP-lightgrey) ![HTML](https://img.shields.io/badge/-PHP-grey)
 
