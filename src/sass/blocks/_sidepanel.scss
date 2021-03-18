@@ -1,6 +1,6 @@
 .sidepanel {
     position: fixed;
-    top: 230px;
+    top: 50px;
     left: 50px;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
     &__divider {
         background-color: #ffffff;
         width: 2px;
-        height: 70px;
+        height: 60px;
     }
     &__text {
         height: 150px;

@@ -1,22 +1,31 @@
 .header {
-    min-height: 100vh;
+    min-height: 50vh;
     position: relative;
-    background: url('../img/bg/header.png') no-repeat 50%/cover;
-    padding-top: 205px;
+    // background: url('../img/bg/header.png') no-repeat 50%/cover;
+    background: linear-gradient(0deg, rgba(26,25,24,1) 28%, rgba(207,158,114,1) 100%);
+    padding-top: 50px;
     &__title {
-        width: 525px;
-        margin-top: 10px;
+        width: 800px;
+        margin-top: 20px;
+        font-size: 60px;
+        line-height: 60px;
+        color: #ffffff;
+        font-weight: bold;
     }
     &__subtitle {
         position: relative;
         padding-left: 10px;
         z-index: 2;
         @include before_circle;
+        font-size: 22px;
+        line-height: 22px;
+        color: #ffffff;
+        font-weight: bold;
     }
     &__buttons {
-        margin-top: 25px;
+        margin-top: 30px;
         display: flex;
-        width: 300px;
+        width: 415px;
         justify-content: space-between;
         align-items: center;
     }

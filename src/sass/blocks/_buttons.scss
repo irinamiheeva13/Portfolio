@@ -1,9 +1,29 @@
+// .btn {
+//     height: 45px;
+//     background: $main-color;
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     padding: 12px 25px; 
+//     &:hover {
+//         box-shadow: -6px -5px 7px 5px rgba(0,0,0,0.74);
+//     }
+// }
+
+
 .btn {
-    height: 45px;
-    background: $main-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    padding: 12px 25px; 
+    background-image: linear-gradient(to right, #c48764 0%, #d6ae7b  30%, #e9c293  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 #2b2623;
+    border-radius: 10px;
+    display: block;
     &:hover {
-        box-shadow: -6px -5px 7px 5px rgba(0,0,0,0.74);
+        background-position: right center; 
+        color: #1a1918;
+        text-decoration: none;
     }
-}
+ }

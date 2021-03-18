@@ -3,15 +3,16 @@
     background-color: $bg-color;
     &__items {
         margin-top: 60px;
-        padding: 0 10px;
+        padding: 0 150px;
         display: grid;
-        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
-        grid-auto-rows: minmax(270px, auto);
+        // grid-template: repeat(1, minmax(270px, auto)) / repeat(4, 270px);
+        // // grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 13px;
     }
     &__item {
         border: solid 1px #ffffff;
-        padding: 30px 30px 25px 30px;
+        padding: 20px 20px 20px 20px;
         img {
             display: flex;
             align-items: center;
@@ -22,9 +23,9 @@
             margin-bottom: 0;  
         }
         p {
-            margin-top: 15px;
+            margin-top: 10px;
             margin-bottom: 0;
-            font-size: 14px; 
+            font-size: 12px; 
             color: #ffffff;
         }
 
