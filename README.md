@@ -17,6 +17,9 @@ As for the style, I divided my project into logical components based on the sema
 
 I used a little bit of JavaScript on my "burger" element. It was the first time I implemented event listeners on the DOM elements. I used more advanced JS in my later projects - please check my [To-Do in vanilla JS](https://github.com/irinamiheeva13/Todo-VanillaJs)
 
+![HTML](https://img.shields.io/badge/-GULP-lightgrey) ![HTML](https://img.shields.io/badge/-PHP-grey)
 
+For the package management I used gulp. I watched all my files and compile them into the dist folder. 
+As for the mail form I used a bit of php code that I learned through a tutorial. 
 
 
