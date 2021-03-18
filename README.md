@@ -1,10 +1,25 @@
-Это проект моего личного сайта-порфтолио. Сайт не финальный, постоянно дополняется и редактируется с учетом приобретенных знаний. Смысла комментировать дизайн/текст/суть написаннно нет, т.к. 
-1) во многих местах это просто заглушки;
-2) контент будет финально верстаться перед первыми поисками работы 
-3) Дизайн сайта - предложенный макет на курсе, который я просто адаптировала под себя по цветам, не меняя структуры. 
+# Portfolio Website
 
-Основное - это чистота и оптимизированность кода. На текущий проект 98% проекта состоит из верстки по БЭМ и css стилей, и совсем небольшой кусочек JS. Курс по JS я начала только что, поэтому еще не знаю всех его возможностей - возможно в будущем переосмыслю верстку с учетом новых фич. 
+### This project represents my skills as a junior web developer. It includes all my current knowdledge of the HTML5 and CSS3 with preprocessors. 
 
-В проекте так же есть кусок с php - это уже готовый кусок кода, который предоставили на курсе для реализации отправки файлов на почту. 
+
+#### Technologies Used:
+![HTML](https://img.shields.io/badge/-HTML5-red)
+
+In the head section I used meta tags and favicons for better visual represantion of th website on messengers and social media. 
+For the body I stick to the semantic tags to create logical blocks of the website. All the scripts and libraries I placed in the end of the body so they don't disrubt the code loading.
+
+![HTML](https://img.shields.io/badge/-CSS3-blue) ![HTML](https://img.shields.io/badge/-SCSS-pink)
+
+As for the style, I divided the project into logical components based on the semantic tags. For the base I used mixins and variables for the main colors.
+
+![HTML](https://img.shields.io/badge/-JAVASCRIPT-yellow)
+
+I used a little bit of JavaScript on the "burger" element. It was the first time I implemented event listeners on the DOM elements. I used more advanced JS in my later projects - please check my [To-Do in vanilla JS](https://github.com/irinamiheeva13/Todo-VanillaJs)
+
+![HTML](https://img.shields.io/badge/-GULP-lightgrey) ![HTML](https://img.shields.io/badge/-PHP-grey)
+
+For the package management I used gulp. It watches all my files and compile them into the dist folder. 
+As for the mail form I used a bit of php code that I learned through a tutorial. 
 
 
